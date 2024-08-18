@@ -1,0 +1,11 @@
+/* My style */
+
+/* Apply styles to button tags and hover effect */
+button {
+    color: #FF0000;
+  
+    &:hover {
+      color: #00FF00;
+    }
+  }
+  
