@@ -1,0 +1,19 @@
+/* My style */
+
+/* Define variables for the colors */
+$main-text-color: #3D3D3D;
+$main-bg-color: #6D6D6D;
+
+/* Apply the text color and background color */
+body {
+  color: $main-text-color;
+  background-color: $main-bg-color;
+}
+
+p {
+  color: $main-text-color;
+}
+
+h2 {
+  background-color: $main-bg-color;
+}
