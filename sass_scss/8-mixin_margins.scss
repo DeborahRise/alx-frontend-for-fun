@@ -1,0 +1,17 @@
+/* My style */
+
+/* Define a mixin for margin */
+@mixin margin($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+  }
+  
+  /* Apply the mixin to body and div tags */
+  body {
+    @include margin(10px, 10px);
+  }
+  
+  div {
+    @include margin(15px, 15px);
+  }
+  
