@@ -1,0 +1,13 @@
+/* My style */
+
+/* Define a variable for the color */
+$main-text-color: #3D3D3D;
+
+/* Apply the color to body and p */
+body {
+  color: $main-text-color;
+}
+
+p {
+  color: $main-text-color;
+}
