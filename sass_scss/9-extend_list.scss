@@ -1,17 +1,18 @@
 /* My style */
 
-/* Define a mixin for margin */
-@mixin margin($left, $right) {
-    margin-left: $left;
-    margin-right: $right;
+/* Define a base class with common styles */
+.info {
+    font-size: 12px;
   }
   
-  /* Apply the mixin to body and div tags */
-  body {
-    @include margin(10px, 10px);
+  /* Extend the .info class for .success and .warning */
+  .success {
+    @extend .info;
+    color: #00FF00;
   }
   
-  div {
-    @include margin(15px, 15px);
+  .warning {
+    @extend .info;
+    color: #FF0000;
   }
   
