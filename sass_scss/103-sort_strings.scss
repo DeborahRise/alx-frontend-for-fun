@@ -1,0 +1,14 @@
+/* Define the list to be sorted */
+$list_to_sort: john anna zoe kim felicia carrie;
+
+/* Sort the list */
+$sorted_list: unquote('');
+
+@each $item in $list_to_sort {
+  $sorted_list: append($sorted_list, $item, comma);
+}
+
+$sorted_list: sort($sorted_list);
+
+/* Print the sorted list */
+@debug $sorted_list;
