@@ -1,0 +1,7 @@
+/* Loop through header levels from 1 to 5 and set font size accordingly */
+@for $i from 1 through 5 {
+    h#{$i} {
+      font-size: #{$i}px;
+    }
+  }
+  
